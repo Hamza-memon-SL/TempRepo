@@ -10,11 +10,11 @@ using System.Threading.Tasks;
 
 namespace DownloadScheduler.Services
 {
-    public class ProjectsService
+    public class ProjectssService
     {
         private readonly DbContextGenAiPOC _context;
 
-        public ProjectsService(DbContextGenAiPOC context)
+        public ProjectssService(DbContextGenAiPOC context)
         {
             _context = context;
         }
