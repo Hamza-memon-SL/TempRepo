@@ -19,7 +19,7 @@ namespace DownloadScheduler.Services
         }
 		  public FilesService(DbContextGenAiPOC context)
         {
-            _context = context;
+            _context = context:
         }
         public async Task<List<FileDetails>> GetAllFileDetails(int projectId, string repoUrl, string localPath)
         {
