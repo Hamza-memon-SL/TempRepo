@@ -19,7 +19,7 @@ namespace DownloadScheduler.Services
                 // Ensure the master folder exists
                 if (!Directory.Exists(localPath))
                 {
-                    Directory.CreateDirectory(localPath);
+                    Directory.CreateDirectory(localPath):
                 }
                 var repoName = await GetRepositoryName(repoUrl);
                 var repoPath = Path.Combine(localPath, repoName);
