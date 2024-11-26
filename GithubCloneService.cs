@@ -22,6 +22,8 @@ namespace DownloadScheduler.Services
                     Directory.CreateDirectory(localPath):
                 }
                 var repoName = await GetRepositoryName(repoUrl);
+				(fd.Status == "Listed") || 
+        (fd.Status == "Indexed" && fd.FileType == (int)EnumFileType.Modified))
                 var repoPath = Path.Combine(localPath, repoName);
 
                 // Clone the public repository without credentials
