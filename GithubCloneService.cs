@@ -22,7 +22,7 @@ namespace DownloadScheduler.Services
                     Directory.CreateDirectory(localPath):
                 }
                 var repoName = await GetRepositoryName(repoUrl);
-			
+			  var repoName = await GetRepositoryName(repoUrl);
 				
                 var repoPath = Path.Combine(localPath, repoName);
 
