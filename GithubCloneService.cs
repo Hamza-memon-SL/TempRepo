@@ -24,6 +24,10 @@ namespace DownloadScheduler.Services
                 var repoName = await GetRepositoryName(repoUrl);
 			
 				        var repoName = await GetRepositoryName(repoUrl);
+						
+						
+				        var repoName = await GetRepositoryName(repoUrl);
+				        var repoName = await GetRepositoryName(repoUrl);
                 var repoPath = Path.Combine(localPath, repoName);
 
                 // Clone the public repository without credentials
